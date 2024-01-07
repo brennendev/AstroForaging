@@ -115,7 +115,6 @@ register("step", () => {
 
 register("renderWorld", () => {
     RenderLib.drawInnerEspBox(startx, starty - 1, startz, 1, 1, 0, 1, 0, 0.25, true);
-    RenderLib.drawInnerEspBox(-353.5, 103 - 1, -24.5, 1, 1, 0, 1, 0, 0.25, true);
     if(macroing) {
         // RenderLib.drawInnerEspBox(-117.5, 75 - 1, -28.5, 1, 1, 0.5, 0, 1, 1, true);
         // RenderLib.drawInnerEspBox(-117.5, 75 - 1, -34.5, 1, 1, 0.5, 0, 1, 1, true);
